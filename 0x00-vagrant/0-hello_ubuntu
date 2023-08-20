@@ -1,0 +1,14 @@
+The uname command can print more detailed information about the system with different options:
+
+uname -a - print all available system information
+uname -r - print kernel release version
+uname -v - print kernel version
+uname -m - print machine hardware name
+uname -p - print processor type
+uname -i - print hardware platform
+But without any options, it defaults to just printing the kernel name as a simple way to identify the operating system.
+
+So in summary:
+
+uname by itself prints the kernel name
+uname -a prints detailed system information
